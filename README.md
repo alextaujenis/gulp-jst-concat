@@ -4,7 +4,7 @@
 
 
 ## Install
-Install using [npm](https://npmjs.org/package/gulp-jst-concat).
+Install using [npm](https://npmjs.org/package/gulp-underscore-jst-concat).
 
     $ npm install gulp-underscore-jst-concat --save-dev
 
@@ -12,7 +12,7 @@ Install using [npm](https://npmjs.org/package/gulp-jst-concat).
 ## Usage
 ```javascript
 var jade = require('gulp-jade')
-var jstConcat = require('gulp-jst-concat')
+var jstConcat = require('gulp-underscore-jst-concat')
 
 gulp.task('JST', function () {
   gulp.src('client/app/views/**/*jade')
@@ -35,7 +35,7 @@ will now be accessible as compiled [lodash](http://lodash.com/docs#template) tem
 - `JST['foo']` and
 - `JST['bar/baz']`.
 
-(Please note that `gulp-jst-concat` doesn't have to be used in conjunction with `gulp-jade`. Any input-stream emitting html-ish file contents will do.)
+(Please note that `gulp-underscore-jst-concat` doesn't have to be used in conjunction with `gulp-jade`. Any input-stream emitting html-ish file contents will do.)
 
 
 ## Options
