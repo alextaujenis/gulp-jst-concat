@@ -6,13 +6,13 @@
 ## Install
 Install using [npm](https://npmjs.org/package/gulp-jst-concat).
 
-    $ npm install gulp-jst-concat
+    $ npm install gulp-underscore-jst-concat --save-dev
 
 
 ## Usage
 ```javascript
 var jade = require('gulp-jade')
-  , jstConcat = require('gulp-jst-concat')
+var jstConcat = require('gulp-jst-concat')
 
 gulp.task('JST', function () {
   gulp.src('client/app/views/**/*jade')
