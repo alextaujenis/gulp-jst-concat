@@ -15,11 +15,11 @@
     "template",
     "underscore"
   ],
-  "homepage": "https://github.com/alextaujenis/gulp-jst-concat",
-  "bugs": "https://github.com/alextaujenis/gulp-jst-concat/issues",
+  "homepage": "https://github.com/alextaujenis/gulp-underscore-jst-concat",
+  "bugs": "https://github.com/alextaujenis/gulp-underscore-jst-concat/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alextaujenis/gulp-jst-concat.git"
+    "url": "https://github.com/alextaujenis/gulp-underscore-jst-concat.git"
   },
   "main": "lib/index",
   "scripts": {
