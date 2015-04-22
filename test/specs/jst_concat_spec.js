@@ -3,10 +3,10 @@
 "use strict";
 
 var File = require('gulp-util').File
-  , vm = require('vm')
+  , vm   = require('vm')
 
 function runInSandbox (str) {
-  var sandbox = { _: require('lodash') }
+  var sandbox = { _: require('underscore-node') }
   vm.runInNewContext(str, sandbox)
   return sandbox
 }
@@ -72,7 +72,7 @@ describe('jstConcat', function () {
     })
   })
 
-  it('compiles file contents to underscore/lodash template functions', function (done) {
+  it('compiles file contents to underscore template functions', function (done) {
     var stream = jstConcat('file.html')
       , file1 = makeFile('foo', '<h1>Template1: <%= val %></h1>')
       , file2 = makeFile('bar', '<h2>Template2: <%= val %></h2>')
