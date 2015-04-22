@@ -1,7 +1,6 @@
-# gulp-jst-concat [![Build Status](https://travis-ci.org/tambourinecoder/gulp-jst-concat.png?branch=master)](https://travis-ci.org/tambourinecoder/gulp-jst-concat)
+# gulp-underscore-jst-concat
 > A [gulp](http://gulpjs.com/) plugin to compile
-[underscore](http://underscorejs.org/#template) / [lodash](http://lodash.com/docs#template)
-views to a single JST file.
+[underscore](http://underscorejs.org/#template) views to a single JST file.
 
 
 ## Install

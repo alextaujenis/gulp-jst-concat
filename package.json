@@ -1,10 +1,10 @@
 {
-  "name": "gulp-jst-concat",
-  "version": "0.0.1",
+  "name": "gulp-underscore-jst-concat",
+  "version": "0.0.2",
   "author": {
-    "name": "Tambourinecoder",
-    "email": "tambourinecoder@gmail.com",
-    "url": "https://github.com/tambourinecoder"
+    "name": "Alex Taujenis",
+    "email": "alex.taujenis@gmail.com",
+    "url": "https://github.com/alextaujenis"
   },
   "license": "MIT",
   "description": "Compile underscore view templates to a single JST file",
@@ -13,14 +13,13 @@
     "jst",
     "concat",
     "template",
-    "lodash",
     "underscore"
   ],
-  "homepage": "https://github.com/tambourinecoder/gulp-jst-concat",
-  "bugs": "https://github.com/tambourinecoder/gulp-jst-concat/issues",
+  "homepage": "https://github.com/alextaujenis/gulp-jst-concat",
+  "bugs": "https://github.com/alextaujenis/gulp-jst-concat/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tambourinecoder/gulp-jst-concat.git"
+    "url": "https://github.com/alextaujenis/gulp-jst-concat.git"
   },
   "main": "lib/index",
   "scripts": {
